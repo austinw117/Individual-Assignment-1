@@ -132,7 +132,7 @@ footer{
     border-bottom: 15px solid var(--text-color);
     }
 
-    .dark-theme .content{
+    .dark-theme .contact-content-container{
         border-bottom: 15px solid var(--bg-color);
     }
   

@@ -1,6 +1,6 @@
 .button {
     background-color: black;;
-    color: rgb(96, 63, 53);
+    color: rgb(18, 94, 208);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 3px 50px;
@@ -15,7 +15,7 @@
     }
 
     .dark-theme button{
-        background-color: rgb(96, 63, 53);;
+        background-color: rgb(18, 94, 208);;
         color: black;
     }
 

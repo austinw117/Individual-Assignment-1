@@ -35,12 +35,6 @@ button:hover{
     .transitionButtonsNext{
         justify-content: right;
     }
-
-@media (max-width: 600px){
-    .button-container{
-        display: block;
-    }
-}
    
 .checkbox-container{
     margin-top: -40px;

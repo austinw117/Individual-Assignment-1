@@ -18,12 +18,7 @@
         background-color: rgb(18, 94, 208);;
         color: black;
     }
-@media (max-width: 600px){
-    button{
-        padding: None;
-        font-size: small;
-    }
-}
+
 button:hover{
     opacity: 0.5;
 }
@@ -40,12 +35,6 @@ button:hover{
     .transitionButtonsNext{
         justify-content: right;
     }
-
-@media (max-width: 600px){
-    .button-container{
-        display: flex;
-    }
-}
    
 .checkbox-container{
     margin-top: -40px;

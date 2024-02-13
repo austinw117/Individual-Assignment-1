@@ -33,7 +33,6 @@ h2 {
 }
 
 header{
-    /* background-color: cyan; */
     padding: 40px;
     border-bottom: 15px solid var(--text-color);
     }
@@ -42,6 +41,11 @@ header{
         border-bottom: 15px solid var(--bg-color);
     }
 
+@media (max-width: 600px){
+    header{
+        padding: 5px;
+    }
+}
 img {
     border: 15px solid var(--text-color);
     }

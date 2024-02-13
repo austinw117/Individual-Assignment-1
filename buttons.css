@@ -1,0 +1,49 @@
+.button {
+    background-color: black;;
+    color: rgb(96, 63, 53);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px 50px;
+    font-size: 32px;
+    outline: none;
+    border: none;
+    }
+
+    .transitionButtons{
+        padding: 1px 48px;
+        font-size: 24px;;
+    }
+
+    .dark-theme button{
+        background-color: rgb(96, 63, 53);;
+        color: black;
+    }
+
+button:hover{
+    opacity: 0.5;
+}
+
+.button-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 20%; */
+    }
+    .transitionButtonsPrev{
+        justify-content: left;
+    }
+    
+    .transitionButtonsNext{
+        justify-content: right;
+    }
+   
+
+.checkbox-container{
+    margin-top: -40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 650px;
+    bottom: 25px;
+}
+

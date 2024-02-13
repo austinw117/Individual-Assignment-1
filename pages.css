@@ -1,0 +1,133 @@
+:root {
+    /* Variables defining the default colors of 
+    the background and text of the page. */
+    --bg-color: rgb(96, 63, 53);
+    --text-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden; 
+}
+
+body {
+    /* Default colors used here */
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    }
+
+    .dark-theme body{
+        /* Color swap */
+        background-color: var(--text-color);
+        color: var(--bg-color);
+    }
+
+/* General Styling */
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+header{
+    /* background-color: cyan; */
+    padding: 40px;
+    border-bottom: 15px solid var(--text-color);
+    }
+
+    .dark-theme .header{
+        border-bottom: 15px solid var(--bg-color);
+    }
+
+img {
+    border: 15px solid var(--text-color);
+    }
+    .image-self{
+        width: 15%;
+        height: 15%;
+    }
+
+    .image-campus{
+        width: 25%;
+        height: 290px;
+    }
+
+    .image-passkey-logo{
+        width: 22%;
+        height: 22%;
+    }
+
+    .image-widevine{
+        width: 23%;
+        height: 290px;
+    }
+
+    .image-overwatch{
+        width: 25%;
+        height: 25%;
+    }
+    
+    .image-nyc{
+        width: 25%;
+        height: 360px;
+    }
+    
+    .image-yosemite{
+        width: 20%;
+        height: 10%;
+    }
+
+    .image-halo{
+        width: 27%;
+        height: 360px;
+    }
+        .dark-theme img{
+            border: 15px solid var(--bg-color);
+        }
+
+.img-container {
+    text-align: center;
+}
+
+.img-container-experience{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+footer{
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Home/About me Page Styling */
+
+.content {
+    text-align: center;
+    font-size: 24px;
+    flex: auto;
+    border-bottom: 15px solid var(--text-color);
+    }
+
+    .dark-theme .content{
+        border-bottom: 15px solid var(--bg-color);
+    }
+/* Experiences Page Styling */
+
+
+/* Contact Page Styling */
+.contact-content-container{
+    text-align: center;
+    font-size: 24px;
+    flex: auto;
+    border-bottom: 15px solid var(--text-color);
+}
+  
+li {
+margin-bottom: 5px;
+}
+
+

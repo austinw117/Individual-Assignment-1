@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Project</title>
+    <link rel="stylesheet" href="pages.css">
+    <link rel="stylesheet" href="buttons.css">
+</head>
+<body>
+    <header class = header>
+        <div class = "button-container">
+            <button id = "home" class = "button">Home</button>
+            <button id = experience class = "button">Experience</button>
+            <button id = "contact" class = "button">Contact</button>
+        </div>
+        <div class = checkbox-container>
+            <input type="checkbox" id = theme name = Theme>
+            <label text="scales">Dark Mode</label>
+        </div>
+    </header>
+    <h1 id = "name">Personal Project</h1>
+    <div class = "img-container">
+        <img src = "images/overwatchCoverArt.png" class = "img image-overwatch" id = photo>
+    </div>
+    <h2>Patch Note Webscraper!</h2>
+    <p class = content>
+        My favorite personal project involves one of my all time favorite games: Overwatch. I've
+        played this game since Freshman year of high school and have been within the Top 500 players
+        in North America numerous times since then. I wanted to combine the game I've invested so much 
+        time into a personal project in order to learn new skills such as mySQL and webscraping. I created a Python
+        script which scrapes patch notes, details of how the game changes in any given update, and stores the
+        changes to mySQL database. This enabled me to see which hero got changed the most since their release
+        and get a better grasp at which characters were more/less balanced througout the lifetime of the game.
+        In the future, I plan to release the code to my GitHub.
+        <div class = "button-container transitionButtonsBoth">
+            <button id = "previous" class = "button transitionButtons">Prev</button>
+            <button id = "next" class = "button transitionButtons">Next</button>
+        </div>
+    </p>
+    <script src="buttons.js"></script>
+    <footer>
+        Austin Wilson Portolio 2022
+    </footer>
+</body>
+</html>

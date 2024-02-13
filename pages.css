@@ -130,7 +130,11 @@ footer{
     font-size: 24px;
     flex: auto;
     border-bottom: 15px solid var(--text-color);
-}
+    }
+
+    .dark-theme .content{
+        border-bottom: 15px solid var(--bg-color);
+    }
   
 li {
 margin-bottom: 5px;

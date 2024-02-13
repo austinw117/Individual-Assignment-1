@@ -41,6 +41,14 @@ header{
         border-bottom: 15px solid var(--bg-color);
     }
 
+@media (max-width: 600px){
+    header{
+        padding: None;
+        /* overflow-x: Auto; */
+        display: flex;
+    }
+}
+
 img {
     border: 15px solid var(--text-color);
     }

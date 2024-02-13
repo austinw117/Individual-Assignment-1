@@ -18,7 +18,12 @@
         background-color: rgb(18, 94, 208);;
         color: black;
     }
-
+@media (max-width: 600px){
+    button{
+        padding: None;
+        font-size: small;
+    }
+}
 button:hover{
     opacity: 0.5;
 }
@@ -43,5 +48,13 @@ button:hover{
     position: relative;
     left: 650px;
     bottom: 25px;
+}
+
+@media (max-width: 600px){
+    .checkbox-container{
+        margin-top: auto;
+        left: none;
+        bottom: none;
+    }
 }
 

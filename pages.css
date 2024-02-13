@@ -43,7 +43,8 @@ header{
 
 @media (max-width: 600px){
     header{
-        overflow-x: hidden;
+        padding: None;
+        overflow-x: Auto;
         display: flex;
     }
 }

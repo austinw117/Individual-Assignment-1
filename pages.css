@@ -41,13 +41,6 @@ header{
         border-bottom: 15px solid var(--bg-color);
     }
 
-@media (max-width: 600px){
-    header{
-        padding: None;
-        position: absolute;
-    }
-}
-
 img {
     border: 15px solid var(--text-color);
     }
@@ -105,8 +98,10 @@ img {
 }
 
 footer{
+    position: fixed;
+    bottom: 0%;
     text-align: center;
-    font-size: 24px;
+    font-size: medium;
 }
 
 /* Home/About me Page Styling */
@@ -140,4 +135,10 @@ li {
 margin-bottom: 5px;
 }
 
-
+/* Media Queries for Mobile */
+/* @media (max-width: 600px){
+    header{
+        padding: None;
+        position: absolute;
+    }
+} */

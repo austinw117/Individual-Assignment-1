@@ -44,9 +44,13 @@ header{
 @media (max-width: 600px){
     header{
         padding: None;
-        position: absolute;
         overflow: hidden;
+        border-bottom: 15px solid var(--text-color);
     }
+    .dark-theme .header{
+        border-bottom: 15px solid var(--bg-color);
+    }
+
 }
 
 img {

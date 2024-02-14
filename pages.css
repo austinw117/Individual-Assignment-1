@@ -41,6 +41,14 @@ header{
         border-bottom: 15px solid var(--bg-color);
     }
 
+@media (max-width: 600px){
+    header{
+        padding: None;
+        position: absolute;
+        overflow: hidden;
+    }
+}
+
 img {
     border: 15px solid var(--text-color);
     }
@@ -134,11 +142,3 @@ footer{
 li {
 margin-bottom: 5px;
 }
-
-/* Media Queries for Mobile */
-/* @media (max-width: 600px){
-    header{
-        padding: None;
-        position: absolute;
-    }
-} */

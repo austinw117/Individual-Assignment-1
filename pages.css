@@ -41,18 +41,6 @@ header{
         border-bottom: 15px solid var(--bg-color);
     }
 
-@media (max-width: 600px){
-    header{
-        padding: None;
-        overflow: hidden;
-        border-bottom: 15px solid var(--text-color);
-    }
-    .dark-theme .header{
-        border-bottom: 15px solid var(--bg-color);
-    }
-
-}
-
 img {
     border: 15px solid var(--text-color);
     }

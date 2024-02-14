@@ -43,8 +43,11 @@ header{
 
 @media (max-width: 600px){
     header{
-        overflow-x: hidden;
         border-bottom: 15px solid var(--text-color);
+    }
+
+    .button-container{
+        flex-direction: column;
     }
     .dark-theme .header{
         border-bottom: 15px solid var(--bg-color);
